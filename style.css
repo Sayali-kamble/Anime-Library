@@ -1,0 +1,29 @@
+body{
+    box-sizing: border-box;
+}
+#anime{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px grey;
+    width: 330px;
+    height: 300px;
+    box-sizing: content-box;
+}
+h1{
+    text-align: center;
+}
+#btn{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 4px black;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(197, 186, 171);
+}
